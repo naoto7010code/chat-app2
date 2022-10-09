@@ -1,0 +1,38 @@
+.wrapper{
+  display: flex;
+}
+/* サイドバー */
+.side-bar{
+  background-color: #253141;
+  width: 300px;
+  height: 100vh;
+}
+.side-bar-header{
+  height: 100px;
+  padding: 0 20px;
+}
+.rooms{
+  height: calc(100vh - 100px);
+  background-color: #2f3e51;
+  padding: 0 20px;
+}
+/* チャット */
+.main-chat{
+  width: calc(100vw - 300px);
+  height: 100vh;
+  background-color: #ffffff;
+}
+.main-chat-header{
+  height: 100px;
+  padding: 0 40px;
+}
+.messages{
+  height: calc(100vh - 190px);
+  background-color: #fafafa;
+  padding: 46px 40px 0;
+}
+.form{
+  height: 90px;
+  background-color: #dddddd;
+  padding: 20px 40px;
+}
