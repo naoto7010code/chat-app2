@@ -10,11 +10,35 @@
 .side-bar-header{
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+.side-bar-username a{
+  color: #fafafa;
+  font-size: 16px;
+  text-decoration: none;
+}
+.side-bar-roomcreate a{
+  color: deepskyblue;
+  font-size: 10px;
+  border: 1px solid lightblue;
+  padding: 14px;
+  text-decoration: none;
+}
+
 .rooms{
   height: calc(100vh - 100px);
   background-color: #2f3e51;
   padding: 0 20px;
+  overflow: scroll;
+}
+.room{
+  padding: 20px 0 40px;
+}
+.room a{
+  color: white;
+  text-decoration: none;
 }
 /* チャット */
 .main-chat{
